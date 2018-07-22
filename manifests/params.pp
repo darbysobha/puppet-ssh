@@ -1,3 +1,6 @@
+$permit_root_login = false
+$port = 22
+
 class ssh::params {
   case $facts['os']['family'] {
     'Debian' : {
